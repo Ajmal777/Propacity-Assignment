@@ -1,0 +1,18 @@
+#root{
+    padding: 1.5rem;
+}
+.create-btn-lg{
+    display: block;
+}
+.create-btn-sm{
+    display: none;
+}
+
+@media (max-width: 750px) {
+    .create-btn-sm{
+        display: block;
+    }
+    .create-btn-lg{
+        display: none;
+    }
+}
